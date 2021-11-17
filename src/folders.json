@@ -1,0 +1,117 @@
+[
+    {
+        "title": "Adapters",
+        "content": [
+            "auth.js",
+            "axios.js"
+        ],
+        "head":"/APIs",
+        "paragraph":"Connectors of the app with the external services; axios, baseURL, AJAX, XHR"
+    },
+    {
+        "title": "il8n",
+        "content": [
+            "en.json",
+            "ar.json"
+        ],
+        "head":"Internationalization",
+        "paragraph":"takes care of the language support of the application"
+    },
+    {
+        "title": "Assets",
+        "content": [
+            "Fonts",
+            "SVGs",
+            "Imags",
+            "Videos",
+            "JSON"
+        ],
+        "head":"Media",
+        "paragraph":"This folder contains all the media assets, such as images, videos, json files"
+    },
+    {
+        "title": "HOC",
+        "content": [
+            "CollapseExpand.js",
+            "WithSubscription.js"
+        ],
+        "head":"Higher Order Components",
+        "paragraph":"Extract the logic in single place and share it across many components."
+    },
+    {
+        "title": "Containers",
+        "content": [
+            {
+                "subtitle":"ProductList",
+                "subcontent":[
+                    "ProductsList.js",
+                    "ProductsList.test.js",
+                    "ProductsList.module.css"
+                ]
+            },
+            {
+                "subtitle":"Cart",
+                "subcontent":[
+                    "RenderCart.js",
+                    "RenderCart.test.js",
+                    "RenderCart.module.css"
+                ]
+            }
+            
+        ],
+        "head":"Stateful Components",
+        "paragraph":"the components which have a direct subscription to the state of the app, likely a store. These components have access to the values in the state"
+    },
+    {
+        "title": "Components",
+        "content": [
+            {
+                "subtitle":"Header",
+                "subcontent": [
+                    "Header.js",
+                    "Header.module.css"
+                ]
+            },
+            {
+                "subtitle":"Card",
+                "subcontent": [
+                    "Card.js",
+                    "Card.module.css"
+                ]
+            }
+        ],
+        "head":"Presentational/Stateless Components",
+        "paragraph":"the components who have an indirect access/subscription to the state of the app. They are used only to display information passed through props"
+    },
+    {
+        "title": "Store",
+        "content": [
+            "cart-actions.js",
+            "cart-reducers.js",
+            "index.js"
+        ],
+        "head":"State Management",
+        "paragraph":"In large applications where there is a lot of information to be stored and managed in state, it is preferable to use global state or a store."
+    },
+    {
+        "title": "Utils",
+        "content": [
+            {
+                "subtitle":"Context",
+                "subcontent":[
+                    "DataContextProvider.js",
+                    "ProjectsContextProvider.js"
+                ]
+            },
+            {
+                "subtitle":"Hooks",
+                "subcontent":[
+                    "UseInput.js",
+                    "UseToast.js"
+                ]
+            }
+        ],
+        "head":"Context & Custom Hook",
+        "paragraph":"The context which has to be shared across these components. Each page can have several nested contexts. And Hooks lets you extract component logic into reusable functions"
+    }
+]

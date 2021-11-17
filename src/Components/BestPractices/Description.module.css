@@ -1,0 +1,8 @@
+.des{
+    border-top: dotted 1.5px #ccc;
+    border-bottom: dotted 1px #ccc;
+    border-right: dotted 0.5px #ccc;
+     border-radius: 5px;
+     padding: 10px;
+     
+}

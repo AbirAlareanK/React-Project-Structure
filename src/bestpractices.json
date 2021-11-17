@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Keep Component Small ",
+        "paragraph" : "And Function-specific, easier for Testing, maintenence, reuse, update, and to implement performane optimization."
+    },
+    {
+        "title": "Reusability",
+        "paragraph" : "One function means one component, Reuse not rebuild."
+    },
+    {
+        "title": "DRY the code",
+        "paragraph" : "Don't repeat yourself, Avoid duplication."
+    },
+    {
+        "title": "Put CSS in Javascript",
+        "paragraph" : "This rule needs no explanation."
+    },
+    {
+        "title": "Comments Only when necessary",
+        "paragraph" : "This rule needs no explanation."
+    },
+    {
+        "title": "Name Components After Functions",
+        "paragraph" : "Avatar not AutherAvatar"
+    },
+    {
+        "title": "PascalCase",
+        "paragraph" : "Capitals for component's names and functions."
+    },
+    {
+        "title": "Separation",
+        "paragraph" : "Separate stateful aspects from rendering. It's better to have one stateful component to load dataand another stateless component to display that data."
+    },
+    {
+        "title": "In One Folder",
+        "paragraph" : "All files related to any feature or route should be in a single folder. .js / .test/ .css"
+    },
+    {
+        "title": "Testing",
+        "paragraph" : "Write test for all code which should be executed as expected."
+    }
+]

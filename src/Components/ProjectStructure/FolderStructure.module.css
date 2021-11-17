@@ -1,0 +1,21 @@
+.pre{
+    display: block;
+    width: 100%;
+    background-color: #F5F8FA;
+    text-align: initial;
+}
+
+.fsc{
+    letter-spacing: -0.022em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.50;
+    font-family: Menlo, Monaco, "Courier New", Courier, monospace;
+    font-size:16px;
+}
+
+.fsc p {
+    margin: 0;
+    color: #003d3d;
+}
