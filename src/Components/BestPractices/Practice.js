@@ -1,6 +1,6 @@
 // Stateless component => display data passed through props
 
-import Card from '../../UI/Card';
+import Card from '../UI/Card';
 import { DiReact } from 'react-icons/di';
 import Classes from './Practice.module.css';
 

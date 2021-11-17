@@ -1,6 +1,5 @@
 import './App.css';
-//import BestPractices from './Components/React_Structure/BestPractices';
-import ReactStructure from './Components/React_Structure/ReactStructue';
+import ReactStructure from './Containers/ReactStructue';
 
 function App() {
 

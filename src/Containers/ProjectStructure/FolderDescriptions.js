@@ -1,7 +1,7 @@
-import FolderStructure from '../../UI/FolderStucture';
+import FolderStructure from '../../Components/ProjectStructure/FolderStucture';
 import FolderData from '../../folders.json';
-import Card from '../../UI/Card';
-import Description from './Description';
+import Card from '../../Components/UI/Card';
+import Description from '../../Components/BestPractices/Description';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 

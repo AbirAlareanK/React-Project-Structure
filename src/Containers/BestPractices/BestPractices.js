@@ -1,5 +1,5 @@
 import practicesData from '../../bestpractices.json';
-import Practice from './Practice';
+import Practice from '../../Components/BestPractices/Practice';
 const BestPractices = () => {
     
     return (

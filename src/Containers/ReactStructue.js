@@ -1,6 +1,6 @@
-import SplitContent from '../../UI/SplitContent';
-import BestPractices from './BestPractices';
-import FolderDescriptions from './FolderDescriptions';
+import SplitContent from '../Components/UI/SplitContent';
+import BestPractices from './BestPractices/BestPractices';
+import FolderDescriptions from './ProjectStructure/FolderDescriptions';
 
 const ReactStructure = () => {
 
