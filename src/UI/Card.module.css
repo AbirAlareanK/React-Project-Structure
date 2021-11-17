@@ -1,0 +1,12 @@
+.card {
+  border-radius: 6px;
+  background-color:#F5F8FA;
+  padding: 1rem;
+  width: 100%;
+  border: solid 1px rgba(121, 126, 126, 0.103);
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+

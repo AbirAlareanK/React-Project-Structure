@@ -1,0 +1,12 @@
+.SplitPane{
+    height: 100vh;
+    display: flex;
+}
+
+.SplitPaneLeft{
+    width: 70vw;
+}
+
+.SplitPaneRight{
+    width: 30vw;
+}
